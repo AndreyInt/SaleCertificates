@@ -89,4 +89,11 @@ label:before {
     .wrapper {
         padding: 10px;
     }
+
+    .back {
+        color: black;
+        position: fixed;
+        left: 15px;
+        top: 15px;
+    }
 }

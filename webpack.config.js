@@ -72,5 +72,5 @@ module.exports = {
     resolve: {
         extensions: ['.jsx', '.js', '.css']
     },
-    devtool: 'inline-source-map',
+    devtool: isDev && 'inline-source-map',
 }
