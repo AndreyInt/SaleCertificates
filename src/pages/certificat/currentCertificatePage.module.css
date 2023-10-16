@@ -1,0 +1,92 @@
+.wrapper {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.err {
+    color: #ff0000;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.inp {
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3px 6px;
+    width: 400px;
+}
+
+label:before {
+    margin-bottom: 10px;
+    content: '';
+    display: block;
+
+}
+
+.btnWrapper {
+    width: 100%;
+    display: flex;
+}
+
+.btn {
+    margin: 10px auto 0;
+}
+
+.back {
+    color: black;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+.payment {
+    color: red;
+    font-size: 36px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1140px) {
+    .page {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .wrapper {
+        padding: 15px;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 780px) {
+    .page {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .inp {
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 1px 2px;
+        width: 310px;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+}

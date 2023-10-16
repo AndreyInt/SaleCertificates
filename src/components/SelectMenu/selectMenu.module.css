@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: fit-content;
+}
+
+.select {
+    appearance: none;
+    padding: 10px 5px;
+    border: 1px solid #caced1;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+select:focus{
+    border: 1px solid #8df873;
+    outline: none;
+}
+
+.option {
+    position: relative;
+}
+
+.label {
+    font-size: 28px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1140px) {
+    .label {
+        font-size: 22px;
+    }
+
+    .select {
+        padding: 8px 4px;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 780px) {
+    .label {
+        font-size: 16px;
+    }
+
+    .select {
+        padding: 4px 2px;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 80%;
+    }
+}

@@ -1,0 +1,17 @@
+@import "styles/reset.css";
+
+
+.app {
+     height: 100vh;
+     background-image: url('model.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     padding-top: 30px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1140px) {
+     .app {
+          padding-top: 20px;
+     }
+}

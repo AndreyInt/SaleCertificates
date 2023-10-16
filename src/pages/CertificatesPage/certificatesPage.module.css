@@ -1,0 +1,53 @@
+.certificatesWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.discount {
+    color: #1f1e1e;
+    font-size: 28px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.btn {
+    margin: 15px 0 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 28px;
+    transition: .1s ease-in;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 780px) and (max-width: 1140px) {
+    .discount {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 22px;
+    }
+
+    .certificatesWrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 780px) {
+    .discount {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
