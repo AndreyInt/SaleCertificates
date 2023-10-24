@@ -11,6 +11,8 @@
 + react
 + module css
 + webpack
++ react hook form
++ react input mask
 
 ## Запуск проекта:
 1. npm i
